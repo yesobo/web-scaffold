@@ -18,7 +18,7 @@
     "react-dom": "^15.4.1"
   },
   "scripts": {
-    "start": "webpack-dev-server --open --progress --colors",
+    "start": "webpack-dev-server --content-base src/ --open --progress --colors",
     "build": "webpack"
   }
 }
