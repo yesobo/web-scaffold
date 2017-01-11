@@ -1,5 +1,5 @@
 {
-  "name": "angularjs-yarn-babel-webpack",
+  "name": "ng1-yarn-babel-webpack",
   "version": "1.0.0",
   "main": "index.js",
   "author": "yesobo <yeso40@hotmail.com>",
@@ -20,3 +20,4 @@
     "build": "webpack"
   }
 }
+p
