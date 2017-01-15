@@ -10,6 +10,7 @@
     "babel-preset-es2015": "^6.18.0",
     "css-loader": "^0.26.1",
     "extract-text-webpack-plugin": "2.0.0-beta.4",
+    "file-loader": "^0.9.0",
     "node-sass": "^4.3.0",
     "sass-loader": "^4.1.1",
     "style-loader": "^0.13.1",
@@ -22,6 +23,7 @@
   },
   "scripts": {
     "start": "webpack-dev-server --open --progress --colors",
-    "build": "rimraf dist && webpack"
+    "build:dev": "rimraf dist && webpack",
+    "build:prod": "rimraf dist && webpack -p"
   }
 }

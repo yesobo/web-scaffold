@@ -1,3 +1,17 @@
+
+// variable used in nu-neo-styles fonts
+$font-base-path: '../../bower_components/nu-neo-styles/dist/fonts' !default;
+@if $NODE_ENV == production {
+  $font-base-path: 'https://fonts.googleapis.com/css?family=Roboto' ;
+}
+
+@import './../../bower_components/nu-neo-styles/dist/sass/modules/fonts';
+
 ng1-app {
+  background-color: lightblue;
+  display: block;
   font-size: 20px;
+  height: 100%;
+  min-height: 50vh;
+  width: 100%;
 }
