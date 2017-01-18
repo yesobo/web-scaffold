@@ -19,7 +19,8 @@
     "yarn": "^0.18.1"
   },
   "dependencies": {
-    "angular": "^1.6.1"
+    "angular": "^1.6.1",
+    "font-awesome": "^4.7.0"
   },
   "scripts": {
     "start": "webpack-dev-server --open --progress --colors",
