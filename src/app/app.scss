@@ -1,17 +1,23 @@
-
-// variable used in nu-neo-styles fonts
+/* Variables */
 $dark-gray: #35261a;
 $light-gray: #4d3c35;
 $light-green: #b9d12e;
 $green: #94a103;
 $white: #fff;
 
+/* Configuration */
 $fa-font-path: '../../node_modules/font-awesome/fonts' !default;
 @if $NODE_ENV == production {
   $fa-font-path: 'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' ;
 }
 
+/* Dependencies */
 @import './../../node_modules/font-awesome/scss/font-awesome.scss';
+
+/* Styles */
+* {
+  box-sizing: border-box;
+}
 
 html {
   height: 100%

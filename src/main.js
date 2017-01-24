@@ -1,6 +1,6 @@
 import angular from 'angular';
 
-import {AppModule} from './app/app.module';
+import { AppModule } from './app/app.module';
 
 require('./app/app.scss');
 
