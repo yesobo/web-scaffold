@@ -14,7 +14,7 @@
     "node-sass": "^4.3.0",
     "sass-loader": "^4.1.1",
     "style-loader": "^0.13.1",
-    "webpack": "2.2.0-rc.1",
+    "webpack": "^2.2.0",
     "webpack-dev-server": "^1.16.2",
     "yarn": "^0.18.1"
   },
@@ -24,7 +24,8 @@
   },
   "scripts": {
     "start": "webpack-dev-server --open --progress --colors",
-    "build:dev": "rimraf dist && webpack",
-    "build:prod": "rimraf dist && webpack -p"
+    "build": "rimraf dist && webpack",
+    "build:dev": "npm run build",
+    "build:prod": "npm run build -- -p"
   }
 }
