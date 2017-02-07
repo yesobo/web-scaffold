@@ -1,10 +1,14 @@
 import React from 'react';
 
-class App extends React.Component {
-    render() {
-        return (
-            <h1>My React app</h1>
-        )
-    }
-}
+import GaulsList from './gauls-list.jsx';
 
+export default class App extends React.Component {
+  render(props) {
+    return (
+      <div>
+        <h1>Por {this.props.god}</h1>
+        <GaulsList />
+      </div>
+    )
+  }
+}
